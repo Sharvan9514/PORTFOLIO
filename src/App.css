@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+header ul li{
+    @apply px-2;
+}
+.bg-primary{
+    background: rgba(10, 0, 0, 0.568);
+}
+.bg-secondary{
+    background:  rgba(255, 175, 27, 0.993);
+}
+.mobile-nav li{
+    @apply fixed top-16 -right-1/4 bg-black w-full h-full;
+}
+section ul li{
+    @apply px-32 py-10;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.btn{
+    @apply bg-yellow-300 px-5 py-2 font-bold hover:border-2 border-black rounded-lg;
+}
+.stable{
+    position: fixed;
+    width: 100%;
+    
+}
+
